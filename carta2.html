@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pastel Interactivo</title>
     <link rel="stylesheet" href="estilos2.css">
     <audio id="audio" src="y2meta.com - Tu Cumpleaños, Diomedes Díaz - Letra Oficial (128 kbps).mp3"></audio>
-
+    
+    <!-- Incluir CanvasConfetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 </head>
 <body>
-    <h1>Click al pastel (No al plato)</h1>
+    <h1>Dele click a la primera capa del 🎂 ¨No al plato hueva¨</h1>
+    
+    <!-- Velas con identificadores únicos -->
     <div class="candle">
         <div id="flame" class="lit"></div>
-     </div>
+    </div>
 
-     <div class="candle2">
+    <div class="candle2">
         <div id="flame" class="lit"></div>
-     </div>
-     
-     
-     <div class="cake">
-       <div class="plate"></div>
-     </div>
+    </div>
+    
+    <!-- Pastel -->
+    <div class="cake"></div>
 
     <script src="script.js"></script>
 </body>
